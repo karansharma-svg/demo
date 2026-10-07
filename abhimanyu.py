@@ -19,7 +19,7 @@ class MainWindow(QMainWindow):
     def __init__(self, app):
         super().__init__()
         self.app=app
-        self.setWindowTitle("fucking not wokring")
+        self.setWindowTitle("not wokring")
         menu_bar=self.menuBar()
         menu_bar.setNativeMenuBar(False)
         file_menu=menu_bar.addMenu("&file")
@@ -156,7 +156,7 @@ class Widget3(QWidget):
         tab_widget.resize(self.size()) 
         page2.setStyleSheet("#settingsPage { background: #dcfce7; }")
         layout.setContentsMargins(0, 0, 0, 0)
-class Widget69(QWidget):
+class Widget9(QWidget):
     def __init__(self,app):
          super().__init__()
          self.app=app
